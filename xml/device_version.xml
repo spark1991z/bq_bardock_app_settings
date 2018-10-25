@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_version_activity_title" android:key="device_version"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/baseline_version" android:key="baseline_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/qaep_version" android:key="qaep_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/touchpanel_version" android:key="touchpanel_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/camera_tuning_version" android:key="camera_tuning_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/advance_music_controls_version" android:key="advance_music_controls_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/advance_volume_controls_version" android:key="advance_volume_controls_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/capacitive_buttons_version" android:key="capacitive_buttons_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/double_tap_version" android:key="double_tap_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/toggles_version" android:key="toggles_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/ic_allapps_version" android:key="ic_allapps_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/multiota_version" android:key="multiota_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/multisim_version" android:key="multisim_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/network_icon_version" android:key="network_icon_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/led_version" android:key="led_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/virtual_navbar_version" android:key="virtual_navbar_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/wifi_assist_version" android:key="wifi_assist_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/schedule_on_off_version" android:key="schedule_on_off_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/ambient_version" android:key="ambient_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/nuclear_brightness_version" android:key="nuclear_brightness_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/equalizer_version" android:key="equalizer_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/battery_animation_version" android:key="battery_animation_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/bqsettings_version" android:key="bqsettings_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/vibration_intensity_modifier_version" android:key="vibration_intensity_modifier_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/fastboot_version" android:key="fastboot_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/mtphelper_version" android:key="mtphelper_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/internal_sd_hide_version" android:key="internal_sd_hide_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/bluetoothbattery_version" android:key="bluetoothbattery_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/apnsconf_version" android:key="apnsconf_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+</PreferenceScreen>

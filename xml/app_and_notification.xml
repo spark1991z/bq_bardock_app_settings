@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_and_notification_dashboard_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/recent_app_category_title" android:key="recent_apps_category" android:order="-200">
+        <Preference android:title="@string/applications_settings" android:key="all_app_info" android:order="20">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$ManageApplicationsActivity">
+                <extra android:name="show_drawer_menu" android:value="true" />
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="all_app_info_divider" android:order="-190" />
+    <Preference android:title="@string/app_permissions" android:key="manage_perms" android:order="-130" settings:keywords="@string/keywords_app_permissions">
+        <intent android:action="android.intent.action.MANAGE_PERMISSIONS" />
+    </Preference>
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="10" />
+    <Preference android:title="@string/special_access" android:key="special_access" android:order="20">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$SpecialAccessSettingsActivity" />
+    </Preference>
+</PreferenceScreen>

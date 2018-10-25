@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/button_volume_keys_title" android:key="button_volume_keys">
+        <CheckBoxPreference android:persistent="false" android:title="@string/button_volume_wake_title" android:key="button_volume_wake_screen" android:summary="@string/button_volume_wake_summary" />
+        <ListPreference android:persistent="false" android:entries="@array/button_volume_default_entries" android:title="@string/button_volume_default_title" android:key="button_volume_default_screen" android:summary="@string/button_volume_default_summary" android:entryValues="@array/button_volume_default_values" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/button_volume_music_control_title" android:key="button_volume_music_control" android:summary="@string/button_volume_music_control_summary" />
+        <ListPreference android:persistent="false" android:entries="@array/volume_key_cursor_control_entries" android:title="@string/volume_key_cursor_control_title" android:key="volume_key_cursor_control" android:dialogTitle="@string/volume_key_cursor_control_title" android:entryValues="@array/volume_key_cursor_control_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/button_keys_title" android:key="button_keys">
+        <CheckBoxPreference android:persistent="false" android:title="@string/virtual_key_haptic_feedback_title" android:key="virtual_key_haptic_feedback" android:summary="@string/virtual_key_haptic_feedback_summary" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/force_show_overflow_menu_title" android:key="force_show_overflow_menu" android:summary="@string/force_show_overflow_menu_summary" />
+        <SwitchPreference android:persistent="false" android:title="@string/keys_enable_custom_title" android:key="keys_enable_custom" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/button_keys_back_title" android:key="button_keys_back">
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_normal" android:key="keys_back_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_back_press_title" android:entryValues="@array/keys_action_values" />
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_long" android:key="keys_back_long_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_back_long_press_title" android:entryValues="@array/keys_action_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/button_keys_home_title" android:key="button_keys_home">
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_normal" android:key="keys_home_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_home_press_title" android:entryValues="@array/keys_action_values" />
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_long" android:key="keys_home_long_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_home_long_press_title" android:entryValues="@array/keys_action_values" />
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_double" android:key="keys_home_double_tap" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_home_double_tap_title" android:entryValues="@array/keys_action_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/button_keys_menu_title" android:key="button_keys_menu">
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_normal" android:key="keys_menu_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_menu_press_title" android:entryValues="@array/keys_action_values" />
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_long" android:key="keys_menu_long_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_menu_long_press_title" android:entryValues="@array/keys_action_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/button_keys_assist_title" android:key="button_keys_assist">
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_normal" android:key="keys_assist_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_assist_press_title" android:entryValues="@array/keys_action_values" />
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_long" android:key="keys_assist_long_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_assist_long_press_title" android:entryValues="@array/keys_action_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/button_keys_appSwitch_title" android:key="button_keys_appSwitch">
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_normal" android:key="keys_app_switch_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_app_switch_press_title" android:entryValues="@array/keys_action_values" />
+        <ListPreference android:persistent="false" android:entries="@array/keys_action_entries" android:title="@string/keys_action_long" android:key="keys_app_switch_long_press" android:dependency="keys_enable_custom" android:dialogTitle="@string/keys_app_switch_long_press_title" android:entryValues="@array/keys_action_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/button_headsethook_title" android:key="button_headsethook">
+        <CheckBoxPreference android:persistent="false" android:title="@string/button_headsethook_launch_voice_title" android:key="button_headsethook_launch_voice" android:summary="@string/button_headsethook_launch_voice_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/notification_light_general_title" android:key="general_section">
+        <com.bq.notificationLed.ApplicationLightPreference android:persistent="false" android:title="@string/notification_light_default_value" android:key="default" />
+        <com.bq.notificationLed.ApplicationLightPreference android:persistent="false" android:title="@string/notification_light_low_battery" android:key="low_battery" />
+        <com.bq.notificationLed.ApplicationLightPreference android:persistent="false" android:title="@string/notification_light_missed_call_title" android:key="missed_call" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_light_applist_title" android:key="applications_list">
+        <Preference android:icon="@drawable/ic_content_add" android:title="@string/notification_light_add_preference" android:key="add_preference_button" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/priority_mode_led_preference" android:key="general_led_settings">
+        <Preference android:title="@string/charging_led_title" android:key="charging_led_settings" />
+    </PreferenceCategory>
+</PreferenceScreen>

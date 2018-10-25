@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bluetooth_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:key="device_name" />
+    <com.android.settings.bluetooth.BluetoothProgressCategory android:title="@string/bluetooth_paired_device_title" android:key="available_devices" />
+    <com.android.settingslib.widget.FooterPreference />
+</PreferenceScreen>

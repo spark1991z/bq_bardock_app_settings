@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/additional_system_update_settings_list_item_title" android:key="additional_system_update_settings">
+        <intent android:targetPackage="@string/additional_system_update" android:action="android.intent.action.MAIN" android:targetClass="@string/additional_system_update_menu" />
+    </Preference>
+    <Preference android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_summary" android:fragment="com.android.settings.deviceinfo.Status" />
+    <Preference android:title="@string/manual" android:key="manual">
+        <intent android:action="android.settings.SHOW_MANUAL" />
+    </Preference>
+    <Preference android:title="@string/legal_information" android:key="legal_container" android:fragment="com.android.settings.LegalSettings" />
+    <Preference android:title="@string/regulatory_labels" android:key="regulatory_info">
+        <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
+    </Preference>
+    <Preference android:title="@string/safety_and_regulatory_info" android:key="safety_info">
+        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
+    </Preference>
+    <Preference android:title="@string/device_feedback" android:key="device_feedback" />
+    <Preference android:title="@string/model_info" android:key="device_model" android:summary="@string/summary_placeholder" />
+    <Preference android:title="@string/firmware_version" android:key="firmware_version" android:summary="@string/summary_placeholder" />
+    <Preference android:title="@string/security_patch" android:key="security_patch" android:summary="@string/summary_placeholder">
+        <intent android:action="android.intent.action.VIEW" android:data="https://source.android.com/security/bulletin/" />
+    </Preference>
+    <Preference android:title="@string/fcc_equipment_id" android:key="fcc_equipment_id" android:summary="@string/summary_placeholder" />
+    <Preference android:title="@string/baseband_version" android:key="baseband_version" android:summary="@string/summary_placeholder" />
+    <Preference android:title="@string/kernel_version" android:key="kernel_version" android:summary="@string/summary_placeholder" />
+    <Preference android:title="@string/build_number" android:key="build_number" android:summary="@string/summary_placeholder" />
+    <Preference android:title="@string/selinux_status" android:key="selinux_status" android:summary="@string/selinux_status_enforcing" />
+</PreferenceScreen>
