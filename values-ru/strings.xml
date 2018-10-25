@@ -240,6 +240,7 @@
     <string name="app_list_memory_use">Приложения</string>
     <string name="app_list_preference_none">Нет</string>
     <string name="app_memory_use">Использование памяти</string>
+    <string name="app_name">обновление программного обеспечения</string>
     <string name="app_name_label">Приложение</string>
     <string name="app_names_concatenation_template_2">%1$s и %2$s</string>
     <string name="app_names_concatenation_template_3">%1$s, %2$s и %3$s</string>
@@ -345,6 +346,10 @@
     <string name="auto_sync_account_title">Автосинхронизация данных</string>
     <string name="auto_sync_personal_account_title">Автоматическая синхронизация личных данных</string>
     <string name="auto_sync_work_account_title">Автоматическая синхронизация корпоративных данных</string>
+    <string name="autocheck_summary_preference">Поиск обновлений выполняется автоматически</string>
+    <string name="autocheck_title_preference">Автоматический поиск</string>
+    <string name="autodownload_summary_preference">Свежие обновления загружаются автоматически только через Wi-Fi</string>
+    <string name="autodownload_title_preference">Автоматическая загрузка</string>
     <string name="autofill_app">Автозаполнение</string>
     <string name="autofill_confirmation_message">&lt;b>Убедитесь, что это приложение безопасно&lt;/b> &lt;br/> &lt;br/> &lt;xliff:g id=app_name example=Google Autofill>%1$s&lt;/xliff:g> анализирует содержимое экрана и находит поля, которые можно заполнить автоматически.</string>
     <string name="autofill_keywords">автоматически, заполнять, автозаполнение</string>
@@ -708,6 +713,8 @@
     <string name="builtin_keyboard_settings_title">Физическая клавиатура</string>
     <string name="button_confirm_convert_fbe">Очистить и перейти</string>
     <string name="button_convert_fbe">Очистить и перейти…</string>
+    <string name="buttons_category_title">Кнопки</string>
+    <string name="buttons_label">Кнопки</string>
     <string name="cache_header_label">Кеш</string>
     <string name="cache_size_label">Кеш</string>
     <string name="cached">Кешированный фоновый процесс</string>
@@ -722,6 +729,7 @@
     <string name="camera_gesture_desc">Чтобы открыть приложение \"Камера\", дважды поверните запястье.</string>
     <string name="camera_gesture_title">Включать камеру движением запястья</string>
     <string name="camera_laser_sensor_switch">Лазерный датчик камеры</string>
+    <string name="camera_tuning_version">Камера Tunning версия</string>
     <string name="cancel">Отмена</string>
     <string name="cant_sync_dialog_message">Синхронизация отключена. Чтобы включить ее, временно разрешите передачу данных в фоновом режиме и автоматическую синхронизацию.</string>
     <string name="cant_sync_dialog_title">Не удалось синхронизировать данные</string>
@@ -933,6 +941,7 @@
     <string name="daltonizer_type">Режим коррекции</string>
     <string name="daltonizer_type_overridden">Новая настройка: %1$s</string>
     <string name="dashboard_title">Настройки</string>
+    <string name="data_change_mode">Данные будут активированы в режиме %s. Хотите активировать данные в автоматическом режиме (2G/3G/4G)?</string>
     <string name="data_limit">Лимит трафика</string>
     <string name="data_plan_usage_manage_plans_button_text">Управление тарифами</string>
     <string name="data_saver_off">Отключено</string>
@@ -1125,6 +1134,8 @@
     <string name="device_status_summary">Номер телефона, уровень сигнала…</string>
     <string name="device_theme">Тема устройства</string>
     <string name="device_usage_list_summary">Использование устройства с момента полной зарядки</string>
+    <string name="device_version_activity_title">Версии устройства</string>
+    <string name="device_version_title">Версии устройства</string>
     <string name="dial_pad_tones_title">Звук при наборе номера</string>
     <string name="dialog_background_check_message">"Заряд батареи расходуется слишком быстро, так как приложение \"%1$s\" часто выводит телефон из спящего режима.
 
@@ -2080,6 +2091,7 @@
     <string name="notification_light_general_title">Общие</string>
     <string name="notification_light_low_battery">Низкий заряд батареи</string>
     <string name="notification_light_missed_call_title">Пропущенный звонок</string>
+    <string name="notification_light_settings">Световое уведомление</string>
     <string name="notification_listener_disable_warning_cancel">Отмена</string>
     <string name="notification_listener_disable_warning_confirm">Отключить</string>
     <string name="notification_listener_disable_warning_summary">Если вы отключите доступ к уведомлениям для приложения \"%1$s\", также может быть отключен доступ к настройкам режима \"Не беспокоить\".</string>
@@ -2211,7 +2223,7 @@
     <string name="power_discharge_remaining">Батарея будет разряжена через %1$s</string>
     <string name="power_discharging_duration">^1 – осталось примерно ^2</string>
     <string name="power_discharging_duration_enhanced">^1 (осталось примерно ^2 при текущем уровне использования)</string>
-    <string name="power_discharging_duration_short">^1, осталось: ^2</string>
+    <string name="power_discharging_duration_short">^1 - осталось ^2</string>
     <string name="power_flashlight">Фонарик</string>
     <string name="power_high_usage_title">Большой расход заряда</string>
     <string name="power_idle">Режим ожидания</string>
@@ -2505,6 +2517,7 @@ UT-интерфейс: %5$s"</string>
     <string name="safety_and_regulatory_info">Безопасность и соответствие стандартам</string>
     <string name="save">Сохранить</string>
     <string name="saved_network">Кто сохранил: %1$s</string>
+    <string name="schedule_power_on_off">Расписание вкл./выкл. питания</string>
     <string name="screen_compatibility_label">Совместимость с экраном</string>
     <string name="screen_compatibility_text">Возможно, приложение не предназначено для вашего экрана. Здесь можно настроить параметры его отображения.</string>
     <string name="screen_locking_sounds_title">Звук блокировки экрана</string>
@@ -2564,6 +2577,7 @@ UT-интерфейс: %5$s"</string>
     <string name="screensaver_settings_summary_sleep">Во время зарядки</string>
     <string name="screensaver_settings_title">Заставка</string>
     <string name="screensaver_settings_when_to_dream">Когда запускать</string>
+    <string name="screensaver_timeout_zero_summary">Никогда</string>
     <string name="sd_card_settings_label">USB-накопитель</string>
     <string name="sd_card_storage">USB-накопитель</string>
     <string name="sd_eject">Безопасное извлечение</string>
@@ -2729,6 +2743,7 @@ UT-интерфейс: %5$s"</string>
     <string name="show_hw_screen_updates_summary">Подсвечивать области экрана при отрисовке с GPU</string>
     <string name="show_ime">Виртуальная клавиатура</string>
     <string name="show_ime_summary">Показывать на экране, когда физическая клавиатура включена</string>
+    <string name="show_navbar_desc">Показать виртуальные кнопки навигации</string>
     <string name="show_navbar_title">Показать сенсорные кнопки экрана</string>
     <string name="show_non_rect_clip">Отладка операций усечения сложной формы</string>
     <string name="show_notification_channel_warnings">Показывать предупреждения канала передачи оповещения</string>
@@ -2960,7 +2975,7 @@ UT-интерфейс: %5$s"</string>
     <string name="storage_settings_title">Настройки хранилища</string>
     <string name="storage_size_large">^1<small><small> ^2</small></small></string>
     <string name="storage_size_large_alternate">^1<small> ^2</small></string>
-    <string name="storage_summary">Используется %1$s, свободно %2$s</string>
+    <string name="storage_summary">Используется %1$s - %2$s свободно</string>
     <string name="storage_summary_format">Занято %1$s (%2$s)</string>
     <string name="storage_summary_with_sdcard">Внутренний накопитель: использовано %1$s, свободно %2$s</string>
     <string name="storage_title_usb">USB-подключение к компьютеру</string>
@@ -3264,6 +3279,8 @@ UT-интерфейс: %5$s"</string>
     <string name="unrestricted_app_title">Неогранич. передача данных</string>
     <string name="unrestricted_data_saver">Неограниченный мобильный Интернет</string>
     <string name="untitled_apn">Без названия</string>
+    <string name="update_summary_preference">Поиск обновлений</string>
+    <string name="update_title_preference">Обновление</string>
     <string name="usage">Передача данных</string>
     <string name="usage_access">Доступ к истории использования</string>
     <string name="usage_access_description">Доступ к истории использования позволяет отслеживать, какие приложения вы используете и как часто, а также определять оператора сети, язык и другие параметры.</string>
@@ -3433,6 +3450,7 @@ UT-интерфейс: %5$s"</string>
     <string name="vibrate_when_ringing_title">Вибрация при звонке</string>
     <string name="vibration_feedback_label">Вибрация обратной связи</string>
     <string name="vibration_intensitty">Интенсивность вибрации</string>
+    <string name="vibration_intensity_modifier_version">Версия модификатора интенсивности вибрации</string>
     <string name="virtual_keyboard_category">Виртуальная клавиатура</string>
     <string name="vision_settings_description">Используйте специальные возможности для удобной работы с устройством. Эти параметры можно изменить в настройках.</string>
     <string name="vision_settings_suggestion_title">Измените размер шрифта</string>
@@ -3936,6 +3954,7 @@ UT-интерфейс: %5$s"</string>
     <string name="zone_list_menu_sort_by_timezone">Упорядочить по часовому поясу</string>
     <string name="camera_hal_hdrplus_switch">HDR+ HAL камеры</string>
     <string name="camera_hal_hdrplus_toast">Чтобы включить HDR+ HAL камеры, перезагрузите устройство</string>
+    <string name="device_version_title_title">Версии устройства</string>
     <string name="sim_disabled">Выключена</string>
     <string name="sim_enabler_disabling">Деактивировать...</string>
     <string name="sim_enabler_enabling">Активировать...</string>
@@ -3943,4 +3962,6 @@ UT-интерфейс: %5$s"</string>
     <string name="sub_activate_success">Успешно активирована.</string>
     <string name="sub_deactivate_success">Успешно деактивирована.</string>
     <string name="tts_engine_name_is_disabled_summary">Выключена</string>
+    <string name="power_charging_duration_short">^1 – ^2</string>
+    <string name="time_zone_gmt">GMT</string>
 </resources>

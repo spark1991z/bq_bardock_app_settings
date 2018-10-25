@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="@string/vibration_intensitty">
-        <com.android.settings.notification.VibrationSeekBarPreference android:icon="@drawable/vibration" android:max="6" android:progress="3" android:title="@string/incoming_label" android:key="vibration_intensity_calls" android:defaultValue="3" />
-        <com.android.settings.notification.VibrationSeekBarPreference android:icon="@drawable/vibration" android:max="6" android:progress="3" android:title="@string/notifications_label" android:key="vibration_intensity_notifs" android:defaultValue="3" />
-        <com.android.settings.notification.VibrationSeekBarPreference android:icon="@drawable/vibration" android:max="6" android:progress="3" android:title="@string/vibration_feedback_label" android:key="vibration_intensity_default" android:defaultValue="3" />
-    </PreferenceCategory>
+    <com.android.settings.notification.VibrationSeekBarPreference android:icon="@drawable/vibration" android:max="6" android:progress="3" android:title="@string/incoming_label" android:key="vibration_intensity_calls" android:defaultValue="3" />
+    <com.android.settings.notification.VibrationSeekBarPreference android:icon="@drawable/vibration" android:max="6" android:progress="3" android:title="@string/notifications_label" android:key="vibration_intensity_notifs" android:defaultValue="3" />
+    <com.android.settings.notification.VibrationSeekBarPreference android:icon="@drawable/vibration" android:max="6" android:progress="3" android:title="@string/vibration_feedback_label" android:key="vibration_intensity_default" android:defaultValue="3" />
 </PreferenceScreen>

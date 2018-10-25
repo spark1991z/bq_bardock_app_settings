@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceScreen android:title="@string/update_title_preference" android:key="system_update_settings" android:summary="@string/update_summary_preference">
+    <PreferenceScreen android:icon="@drawable/ic_system_update" android:title="@string/update_title_preference" android:key="system_update_settings" android:summary="@string/update_summary_preference">
         <intent android:targetPackage="com.bqreaders.ota" android:action="android.intent.action.MAIN" android:targetClass="com.bqreaders.ota.act.MainActivity" />
     </PreferenceScreen>
     <CheckBoxPreference android:title="@string/autocheck_title_preference" android:key="autocheck_ota_settings" android:summary="@string/autocheck_summary_preference" />
