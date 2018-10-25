@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/ambient_display_screen_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ambient_display_category_triggers">
+        <SwitchPreference android:title="@string/doze_always_on_title" android:key="ambient_display_always_on" android:summary="@string/doze_always_on_summary" />
+        <Preference android:title="@string/ambient_display_title" android:key="ambient_display_double_tap" android:fragment="com.android.settings.gestures.DoubleTapScreenSettings" />
+        <Preference android:title="@string/ambient_display_pickup_title" android:key="ambient_display_pick_up" android:fragment="com.android.settings.gestures.PickupGestureSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <SwitchPreference android:title="@string/doze_title" android:key="ambient_display_notification" android:summary="@string/doze_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>
